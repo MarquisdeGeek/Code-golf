@@ -161,6 +161,23 @@ URL: https://www.dwitter.net/d/33556
 x.beginPath(x.fill(x.arc(960,540,6e3,t,t+3)))
 ```
 
+
+## Example
+
+Title: **A Windy Night**
+
+Creator: **@marquisdegeek**
+
+URL: https://www.dwitter.net/d/33468
+
+```
+t?0:G=new GainNode(X=new AudioContext,{gain:0.003}),G.connect(X.destination);[0,S(t),C(t/6),t&8,T(t/7)%9].map(q=>{with(new OscillatorNode(X,{frequency:110*2**q}))connect(G),start(t),stop(t+1)})
+```
+
+
+
+
+
 ##  For a while
 | Size | Before | After | Size |
 | ---- | ---- | ---- | ---- |
